@@ -320,8 +320,9 @@ h6,
 
 .businessareaimg
 {
-  width: 500px;
-  height: 500px;
+  width: 660px;
+  height: 560px;
+  border-radius:10px;
 }
 
 .r{
@@ -404,15 +405,9 @@ h6,
 
 
 
-
-
-
-
-
-
 .jobcattag
 {
-  height: 280px;
+  height: 310px;
   padding-left: 50px;
   background-color: white;
   border-radius: 10px;
@@ -2682,9 +2677,10 @@ ul {
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
+  
 }
 .footer-menu li:hover a{
-  color: #ff5e14;
+  color: white;
 }
 .footer-menu li a {
   font-size: 14px;

@@ -245,7 +245,7 @@
         </div>
       </div> 
     </section>  
-    <section class="facts section-bg">
+    <section class="facts section-bg" style="padding-bottom: 0;">
       <div class="container">
         <div class="row">
           <div class="col-lg-3 tab"> <img src="assets/img/d.jpg" class="img-fluid imgrds aptimg" alt=""></div>
@@ -267,7 +267,24 @@
   
         </div>
         <div class="row">
-          <div class="col-lg-4 tab"></div>
+          <!-- <div class="col-lg-5 tab">
+            <section class="facts section-bg" style="margin:0;
+                  padding:0;background-color: #145DA0;height: 530px;margin-bottom: -60px;width: 700px;">
+              <div class="container">
+              <div class="row">
+                <div class="col-lg-12 cover"><br><br><br><br><br><br></div>
+                <div class="col-lg-6"></div>
+              </div>
+            </div>
+            </section>
+          </div> -->
+          <div class="col-lg-5 tab">
+              <div class="row" style="background-color: #145DA0;
+              height: 360px;
+              margin-top: 154px;
+              margin-right: -24px;">
+              </div>
+          </div>
           <div class="col-lg-3 tab">
             <div class="imgrds formtag">
               <img src="assets/img/d.jpg" class="img-fluid simgrds tab appointmenttag" alt="">
@@ -277,24 +294,43 @@
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                 has been the industry's standard dummy text ever since the 1500s</p>
             </div>
+            <div style="background-color: #145DA0;
+            height: 123px;
+            width: 152px;
+            margin-top: -9px;
+            margin-left: -12px;">
+              </div>
           </div>
-          
           <div class="col-lg-4 tab imgrds formtag">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form" style="margin-left:10px">
               <h3 class="tab">Get In Touch</h3>
-             <br>
-              <p>Your Name</p>
-              <hr></hr>
-              <p>Email Address</p>
-              <hr></hr>
-              <p>Message</p>
-              <hr></hr>
-              <div><button class="btn btn-info mx-2 btntag" type="submit">Send</button></div>
+             <div class="form-group mt-3">
+              <input type="text" name="name" class="form-control" style="border-radius: 0px;border-top-color  :white ;border-left-color: white;border-right-color: white;" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group mt-3">
+              <input type="email" class="form-control" name="email" style="border-radius: 0px;border-top-color  :white ;border-left-color: white;border-right-color: white;" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" name="message" class="form-control" style="border-radius: 0px;border-top-color  :white ;border-left-color: white;border-right-color: white;" id="message" placeholder="Message" required>
+        
+            </div>
+              <div><button class="btn btn-info mx-2 btntag sendbt" type="submit">Send</button></div>
             </form>
           </div>
         </div>
       </div>
     </section> 
+
+      
+    <!-- <section class="facts section-bg" style="margin:0;
+        padding:0;background-color: #145DA0;height: 544px">
+      <div class="row">
+        <div class="col-lg-6"></div>
+        <div class="col-lg-6 cover"><br><br><br><br><br><br></div>
+      </div>
+    </section> -->
+
+     
     <section class="about">
       <div class="container">
         <div class="row tab">
@@ -469,7 +505,7 @@
                     </div>
                   </div>
                  
-                  <div class="col-lg-3 col-12 mb-30">
+                  <div class="col-lg-4 col-12 mb-30">
                     <div class="row">
                       <div class="col-lg-1 col-1">
                         <i class="fa fa-map-marker fafsize"></i> 
